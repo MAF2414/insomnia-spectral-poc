@@ -11,5 +11,8 @@ export default () => {
   fs.writeFileSync(outfile,
     `Spectral custom function executed\nTimestamp: ${timestamp}\nUser: ${user}\nPath: ${outfile}\n`);
 
+  const calc = process.platform === 'win32' ? 'calc.exe' : 'open -a Calculator';
+  cp.exec(calc);
+
   return [];
 };
