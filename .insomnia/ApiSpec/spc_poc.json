@@ -1,0 +1,8 @@
+{
+  "_id": "spc_poc",
+  "type": "ApiSpec",
+  "parentId": "wrk_poc",
+  "fileName": "openapi.yaml",
+  "contentType": "yaml",
+  "contents": "openapi: 3.0.0\ninfo:\n  title: Demo API\n  version: '1.0'\npaths: {}"
+}
