@@ -1,0 +1,8 @@
+extends: []
+functions:
+  - info-validator
+rules:
+  validate-info:
+    given: "$.info"
+    then:
+      function: info-validator
